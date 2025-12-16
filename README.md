@@ -17,7 +17,7 @@ Goals
 - Use GitHub Copilot intentionally: craft prompts, iterate on generated code, and critically review its suggestions
 
 How to use this folder
-1. Read `0-get-started.md` to set up the environment and use the recommended starter scaffold for efficient sessions.
+1. Read `0-get-started.md` to set up the environment and use the recommended starter scaffold for efficient sessions or create everything from scratch if you are an experienced user.
 2. Work through `1-create-model-data.md` and `2-create-api.md` for the core backend work.
 3. Optionally complete `3-create-integration-verification.md` if you want to test and integrate the API.
 4. Tackle `4-advanced-backend-exercises.md` for deeper challenges.
