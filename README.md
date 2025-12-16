@@ -31,8 +31,3 @@ Assessment / Checkpoints
 - Checkpoint 1 (1-2 hours): Domain model and migrations exist; basic CRUD endpoints implemented and tested.
 - Checkpoint 2 (3-5 hours): Add advanced features (background worker, caching, idempotency, CQRS, event sourcing) and secure the API (JWT or API keys).
 - Final (4-8 hours): End-to-end tests, documentation, perf checks, telemetry, and retrospective: record what Copilot helped with and what required manual changes. Include a "Vulnerability Check": Ask Copilot to review its own code for security flaws (e.g., Prompt: "Review this controller method for security vulnerabilities and suggest fixes.").
-
-Notes for mentors
-- Encourage participants to document their Copilot prompts and reasoning in a short `copilot-notes.md`.
-- Emphasize critical review of generated code: naming, nullability, exception handling, and performance.
-- For factual accuracy: Ensure .NET 7+ is used; packages like Microsoft.AspNetCore.Mvc.Versioning for API versioning, Polly for resilience.
