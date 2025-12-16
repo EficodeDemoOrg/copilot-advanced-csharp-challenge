@@ -67,3 +67,68 @@ You've now got the development environment created and started! You're all set a
 
 Deliverable for this step
 - A working solution that builds and a test project that runs locally.
+
+---
+
+## Getting Unstuck
+
+### Problem: "Codespace won't start or is slow"
+**Solutions**:
+- Wait 2-3 minutes on first launch (installing .NET 8 SDK)
+- Check your GitHub Codespaces quota (free tier has limits)
+- Alternative: Clone repo locally and use VS Code with Docker
+
+### Problem: "GitHub Copilot extension not activating"
+**Common fixes**:
+1. Ensure you have an active GitHub Copilot subscription
+2. Sign in to GitHub in VS Code (bottom left account icon)
+3. Reload window: F1 → "Developer: Reload Window"
+4. Check extension is enabled: Extensions panel → GitHub Copilot → Enable
+
+### Problem: ".NET SDK not found"
+**For Codespaces**: Should be pre-installed. Verify with `dotnet --version`
+
+**For local setup**:
+```bash
+# Install .NET 8 SDK from https://dotnet.microsoft.com/download
+dotnet --version  # Should show 8.0.x
+```
+
+### Problem: "dotnet build fails on starter project"
+**Check**:
+1. You're in the correct directory: `cd c#/starter`
+2. Solution file exists: `ls *.sln`
+3. Restore packages: `dotnet restore`
+
+**Commands**:
+```bash
+cd /workspaces/copilot-advanced-csharp-challenge/c#/starter
+dotnet restore
+dotnet build
+```
+
+### Problem: "I'm new to GitHub Copilot - how do I use it?"
+**Quick tips**:
+1. **Inline suggestions**: Start typing, Copilot suggests completions (Tab to accept, Esc to dismiss)
+2. **Comment-driven**: Write a comment describing what you want, Copilot generates code
+   ```csharp
+   // Create a method to validate email format using regex
+   ```
+3. **Chat**: Open Copilot Chat (Ctrl+Shift+I or Cmd+Shift+I) and ask questions
+4. **Context**: Open related files in tabs - Copilot uses them as context
+
+**Practice prompt**:
+```
+Create a simple Hello World endpoint in Program.cs that returns a JSON response with a message property.
+```
+
+### Using Starter vs From-Scratch
+**Use starter if**:
+- Time-limited workshop (4 hours)
+- You want to focus on domain modeling and EF Core
+- First time with Copilot-assisted development
+
+**Start from scratch if**:
+- 6+ hour workshop
+- You want full control and practice project setup
+- Experienced with .NET and want the challenge

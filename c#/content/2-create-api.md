@@ -1,5 +1,25 @@
 # 2 - Create the API (Advanced)
 
+## Progress Checklist
+
+Track your progress through this step:
+
+- [ ] Create FlightsController with GET /v1/flights endpoint
+- [ ] Add query parameters: airline, from, date, pagination, sorting
+- [ ] Implement POST /v1/flights/{id}/report-delay endpoint
+- [ ] Add request validation using FluentValidation or Data Annotations
+- [ ] Implement idempotency for command endpoints
+- [ ] Add dependency injection for services and repositories
+- [ ] Create middleware for structured logging and correlation ID
+- [ ] Add exception handling middleware with ProblemDetails
+- [ ] Implement authentication (JWT or API key) for admin endpoints
+- [ ] Add health check endpoints (/health/live, /health/ready)
+- [ ] Write unit tests for controllers and command handlers
+- [ ] Write integration tests using WebApplicationFactory
+- [ ] (Optional) Implement at least 3 advanced features (background processing, caching, CQRS, API versioning, resilience, distributed tracing)
+
+---
+
 Goal
 Build a robust, versioned ASP.NET Core Web API exposing endpoints for querying flights, reporting delays, and operational endpoints for admins. Focus on correctness, performance, and maintainability.
 

@@ -1,5 +1,42 @@
 # 4 - Advanced Backend Exercises (Optional Extensions)
 
+## Progress Checklist
+
+These are optional advanced exercises. Pick one or more based on your interests:
+
+### Exercise A: Microservices Decomposition
+- [ ] Design microservices architecture (FlightService, DelayReportingService, NotificationService)
+- [ ] Implement message queue using RabbitMQ, MassTransit, or Azure Service Bus
+- [ ] Add service discovery and API gateway (Ocelot or YARP)
+
+### Exercise B: Event Sourcing with Marten
+- [ ] Set up PostgreSQL container with Docker
+- [ ] Replace EF Core with Marten for event sourcing
+- [ ] Implement event-sourced Flight aggregate
+- [ ] Add projections for read models
+- [ ] Implement event versioning
+
+### Exercise C: Advanced Security and Compliance
+- [ ] Implement OAuth 2.0 / OpenID Connect
+- [ ] Add JWT authentication with role-based policies
+- [ ] Implement data encryption at rest and in transit
+- [ ] Add audit logging for compliance
+
+### Exercise D: Performance Optimization and Scaling
+- [ ] Implement database sharding or partitioning
+- [ ] Add response compression and HTTP/2 support
+- [ ] Profile with dotnet-trace
+- [ ] Create benchmarks using BenchmarkDotNet
+- [ ] Optimize hot paths based on profiling results
+
+### Exercise E: Observability and Monitoring
+- [ ] Set up OpenTelemetry with traces, metrics, and logs
+- [ ] Export to Prometheus/Grafana or Jaeger
+- [ ] Implement custom health check probes
+- [ ] Add alerting rules for high latency or error rates
+
+---
+
 These are additional, highly advanced exercises to extend the workshop for participants seeking deeper challenges. Each can be tackled independently and adds 1-2 hours to the timeline.
 
 ## Exercise A: Microservices Decomposition

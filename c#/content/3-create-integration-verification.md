@@ -1,5 +1,21 @@
 # 3 - Integration & Verification
 
+## Progress Checklist
+
+Track your progress through this step:
+
+- [ ] Create console client using System.CommandLine or HttpClient
+- [ ] Implement list-flights command with filters (airline, date)
+- [ ] Implement report-delay command
+- [ ] Add configuration for base URL and API keys
+- [ ] Test idempotency by calling report-delay multiple times
+- [ ] Test rate limiting behavior
+- [ ] Test authentication and error handling
+- [ ] Create Postman collection or API test scripts (optional)
+- [ ] Perform simple load test and measure response times
+
+---
+
 This step is optional and focuses on backend validation rather than frontend development. The emphasis remains on backend challenges.
 
 Goals

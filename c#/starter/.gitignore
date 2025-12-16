@@ -1,0 +1,37 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Database files (participants will create these)
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+.vs/
+.vscode/
+
+# Implementation files (participants should create these)
+FlightDelay.Api/Domain/
+FlightDelay.Api/Persistence/
+FlightDelay.Api/Controllers/
+FlightDelay.Api/Commands/
+FlightDelay.Api/Queries/
+FlightDelay.Api/DTOs/
+FlightDelay.Api/Validators/
+FlightDelay.Api/Middleware/
+FlightDelay.Api/Migrations/
+FlightDelay.Tests/FlightTests.cs
+FlightDelay.Tests/ValueObjectTests.cs
+FlightDelay.Client/
+
+# Keep these for starter
+!FlightDelay.Api/Program.cs
+!FlightDelay.Api/FlightDelay.Api.csproj
+!FlightDelay.Tests/UnitTest1.cs
