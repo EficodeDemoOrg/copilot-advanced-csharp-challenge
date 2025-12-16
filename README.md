@@ -5,7 +5,7 @@ This workshop is an advanced, multi-hour exercise for experienced C# developers.
 Estimated time: 4-8 hours (depending on experience and depth of optional extensions)
 
 What's included
-- Step-by-step instruction files: `0-get-started.md`, `1-create-model-data.md`, `2-create-api.md`, `3-create-integration-verification.md` (integration is optional/minimal), `4-advanced-backend-exercises.md` (for extra challenges)
+- Step-by-step instruction files in the c#/content folder: `0-get-started.md`, `1-create-model-data.md`, `2-create-api.md`, `3-create-integration-verification.md` (integration is optional/minimal), `4-advanced-backend-exercises.md` (for extra challenges)
 - Hints and Copilot-friendly prompts embedded in each step
 - Checkpoints and evaluation criteria for mentors
 
